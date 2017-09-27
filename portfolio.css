@@ -12,6 +12,7 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 .header_image {
     margin-bottom: -30px;
 }
@@ -110,19 +111,19 @@ a:hover {
 
 @media screen and (min-width: 568px) and (max-width: 997px)
     {
-    header {display: flex; margin-bottom: 2em;}
-    .header_image {width: 75%; display: flex; justify-content: flex-start; order: 1}
-    .header_detail {width: 50%; margin-right: 10%; display: flex; justify-content:
-        flex-end; flex-direction: column; order: 2}
-    .header_name {font-size: 25px;}
+        header {display: flex; margin-bottom: 2em;}
+        .header_image {width: 75%; display: flex; justify-content: flex-start; order: 1}
+        .header_detail {width: 50%; margin-right: 10%; display: flex; justify-content:
+            flex-end; flex-direction: column; order: 2}
+        .header_name {font-size: 25px;}
 
-    .main {display: flex; grid-auto-rows: minmax(200px, auto); margin-bottom: -10%; align-items: stretch;}
-    .profile_image {width: 50%; display: flex; min-height: 100%; overflow: hidden;
-        justify-content: flex-start; order: 1}
-    .skills {width: 50%; margin-right: 10%;   display: flex; justify-content:
-        flex-end; align-items: stretch; flex-direction: column; order: 2}
+        .main {display: flex; grid-auto-rows: minmax(200px, auto); margin-bottom: -10%; align-items: stretch;}
+        .profile_image {width: 50%; display: flex; min-height: 100%; overflow: hidden;
+            justify-content: flex-start; order: 1}
+        .skills {width: 50%; margin-right: 10%;   display: flex; justify-content:
+            flex-end; align-items: stretch; flex-direction: column; order: 2}
 
-    .project_image { height: 200px; width: 75%; align-items: center; margin-left: 10%;}
+        .project_image { height: 200px; width: 75%; align-items: center; margin-left: 10%;}
 
 }
 
